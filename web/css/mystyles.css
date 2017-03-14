@@ -1,0 +1,23 @@
+nav[role="navigation"]{
+    margin-bottom: 1em;
+}
+
+button{
+    background: none !important;
+    border: none !important;
+}
+
+.card-image{
+    overflow: hidden;
+}
+
+.card-image span{
+    font-size: 14px !important;
+}
+
+.btn-floating.my{
+    color: #333;
+    background: none !important;
+    box-shadow: none !important;
+    width: 400px !important;
+}

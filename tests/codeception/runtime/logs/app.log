@@ -1,0 +1,828 @@
+2017-03-02 13:11:37 [192.168.1.2][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#1 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#2 {main}
+2017-03-02 13:11:37 [192.168.1.2][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'fdaa333c97a19e23a1b4b77851e1876a2ac76064111c443a3c4e2ba6552c46fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sXDcgZmCkvrbTiZE-BsKC7s-xTBgJHGR\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '192.168.1.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=fdaa333c97a19e23a1b4b77851e1876a2ac76064111c443a3c4e2ba6552c46fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXDcgZmCkvrbTiZE-BsKC7s-xTBgJHGR%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-7-x64\\ext;c:\\openserver\\modules\\php\\PHP-7-x64\\pear;c:\\openserver\\modules\\php\\PHP-7-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-7-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '192.168.1.2'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/news.portal/web/index-test.php'
+    'REMOTE_PORT' => '31544'
+    'REDIRECT_URL' => '/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index-test.php'
+    'PHP_SELF' => '/index-test.php'
+    'REQUEST_TIME_FLOAT' => 1488449496.937
+    'REQUEST_TIME' => 1488449496
+    'argv' => []
+    'argc' => 0
+]
+2017-03-02 13:11:37 [192.168.1.2][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#1 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#2 {main}
+2017-03-02 13:11:37 [192.168.1.2][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'fdaa333c97a19e23a1b4b77851e1876a2ac76064111c443a3c4e2ba6552c46fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sXDcgZmCkvrbTiZE-BsKC7s-xTBgJHGR\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '192.168.1.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=fdaa333c97a19e23a1b4b77851e1876a2ac76064111c443a3c4e2ba6552c46fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXDcgZmCkvrbTiZE-BsKC7s-xTBgJHGR%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-7-x64\\ext;c:\\openserver\\modules\\php\\PHP-7-x64\\pear;c:\\openserver\\modules\\php\\PHP-7-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-7-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '192.168.1.2'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/news.portal/web/index-test.php'
+    'REMOTE_PORT' => '31544'
+    'REDIRECT_URL' => '/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index-test.php'
+    'PHP_SELF' => '/index-test.php'
+    'REQUEST_TIME_FLOAT' => 1488449496.937
+    'REQUEST_TIME' => 1488449496
+    'argv' => []
+    'argc' => 0
+]
+2017-03-02 13:11:43 [192.168.1.2][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#1 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#2 {main}
+2017-03-02 13:11:43 [192.168.1.2][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'fdaa333c97a19e23a1b4b77851e1876a2ac76064111c443a3c4e2ba6552c46fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sXDcgZmCkvrbTiZE-BsKC7s-xTBgJHGR\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '192.168.1.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=fdaa333c97a19e23a1b4b77851e1876a2ac76064111c443a3c4e2ba6552c46fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXDcgZmCkvrbTiZE-BsKC7s-xTBgJHGR%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-7-x64\\ext;c:\\openserver\\modules\\php\\PHP-7-x64\\pear;c:\\openserver\\modules\\php\\PHP-7-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-7-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '192.168.1.2'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/news.portal/web/index-test.php'
+    'REMOTE_PORT' => '31552'
+    'REDIRECT_URL' => '/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index-test.php'
+    'PHP_SELF' => '/index-test.php'
+    'REQUEST_TIME_FLOAT' => 1488449503.077
+    'REQUEST_TIME' => 1488449503
+    'argv' => []
+    'argc' => 0
+]
+2017-03-02 13:11:43 [192.168.1.2][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#1 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#2 {main}
+2017-03-02 13:11:43 [192.168.1.2][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'fdaa333c97a19e23a1b4b77851e1876a2ac76064111c443a3c4e2ba6552c46fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sXDcgZmCkvrbTiZE-BsKC7s-xTBgJHGR\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '192.168.1.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=fdaa333c97a19e23a1b4b77851e1876a2ac76064111c443a3c4e2ba6552c46fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXDcgZmCkvrbTiZE-BsKC7s-xTBgJHGR%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-7-x64\\ext;c:\\openserver\\modules\\php\\PHP-7-x64\\pear;c:\\openserver\\modules\\php\\PHP-7-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-7-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '192.168.1.2'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/news.portal/web/index-test.php'
+    'REMOTE_PORT' => '31552'
+    'REDIRECT_URL' => '/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index-test.php'
+    'PHP_SELF' => '/index-test.php'
+    'REQUEST_TIME_FLOAT' => 1488449503.077
+    'REQUEST_TIME' => 1488449503
+    'argv' => []
+    'argc' => 0
+]
+2017-03-02 13:11:44 [192.168.1.2][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Страница не найдена. in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Request.php:193
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#3 {main}
+2017-03-02 13:11:44 [192.168.1.2][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'fdaa333c97a19e23a1b4b77851e1876a2ac76064111c443a3c4e2ba6552c46fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sXDcgZmCkvrbTiZE-BsKC7s-xTBgJHGR\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '192.168.1.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://192.168.1.2/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=fdaa333c97a19e23a1b4b77851e1876a2ac76064111c443a3c4e2ba6552c46fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXDcgZmCkvrbTiZE-BsKC7s-xTBgJHGR%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-7-x64\\ext;c:\\openserver\\modules\\php\\PHP-7-x64\\pear;c:\\openserver\\modules\\php\\PHP-7-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-7-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '192.168.1.2'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/news.portal/web/index-test.php'
+    'REMOTE_PORT' => '31555'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index-test.php'
+    'PHP_SELF' => '/index-test.php'
+    'REQUEST_TIME_FLOAT' => 1488449504.066
+    'REQUEST_TIME' => 1488449504
+    'argv' => []
+    'argc' => 0
+]
+2017-03-02 13:11:44 [192.168.1.2][-][-][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: Страница не найдена. in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Request.php:193
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php(82): yii\web\Request->resolve()
+#1 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#3 {main}
+2017-03-02 13:11:44 [192.168.1.2][-][-][info][application] $_COOKIE = [
+    '_csrf' => 'fdaa333c97a19e23a1b4b77851e1876a2ac76064111c443a3c4e2ba6552c46fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sXDcgZmCkvrbTiZE-BsKC7s-xTBgJHGR\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => '192.168.1.2'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://192.168.1.2/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=fdaa333c97a19e23a1b4b77851e1876a2ac76064111c443a3c4e2ba6552c46fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sXDcgZmCkvrbTiZE-BsKC7s-xTBgJHGR%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-7-x64\\ext;c:\\openserver\\modules\\php\\PHP-7-x64\\pear;c:\\openserver\\modules\\php\\PHP-7-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-7-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => '192.168.1.2'
+    'SERVER_ADDR' => '192.168.1.2'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.2'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/news.portal/web/index-test.php'
+    'REMOTE_PORT' => '31555'
+    'REDIRECT_URL' => '/favicon.ico'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.ico'
+    'SCRIPT_NAME' => '/index-test.php'
+    'PHP_SELF' => '/index-test.php'
+    'REQUEST_TIME_FLOAT' => 1488449504.066
+    'REQUEST_TIME' => 1488449504
+    'argv' => []
+    'argc' => 0
+]
+2017-03-02 13:11:51 [127.0.0.1][-][-][error][ReflectionException] ReflectionException: Class app\controllers\user\ProfileController does not exist in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\di\Container.php:424
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\di\Container.php(424): ReflectionClass->__construct('app\\controllers...')
+#1 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('app\\controllers...')
+#2 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('app\\controllers...', Array, Array)
+#3 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('app\\controllers...', Array)
+#4 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Module.php(578): yii\BaseYii::createObject('app\\controllers...', Array)
+#5 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('showit')
+#6 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('profile/showit')
+#7 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/profile/sh...', Array)
+#8 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#10 {main}
+2017-03-02 13:11:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'username' => 'login'
+]
+
+$_COOKIE = [
+    'gsScrollPos' => ''
+    '_csrf' => '506f2a5c8c7f4fe7720379b0557613ce44df13448a2a440396b6315e3073dda5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hwQ0GzVsBPQMJi_waOdJLg3Q3OkyLIFp\";}'
+    'PHPSESSID' => 'ibn37fcbi103p7dqhbe93521t5'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'news.portal'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'gsScrollPos=; _csrf=506f2a5c8c7f4fe7720379b0557613ce44df13448a2a440396b6315e3073dda5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hwQ0GzVsBPQMJi_waOdJLg3Q3OkyLIFp%22%3B%7D; PHPSESSID=ibn37fcbi103p7dqhbe93521t5'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-7-x64\\ext;c:\\openserver\\modules\\php\\PHP-7-x64\\pear;c:\\openserver\\modules\\php\\PHP-7-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-7-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'news.portal'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/news.portal/web/index-test.php'
+    'REMOTE_PORT' => '31563'
+    'REDIRECT_URL' => '/user/login/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/login/'
+    'SCRIPT_NAME' => '/index-test.php'
+    'PHP_SELF' => '/index-test.php'
+    'REQUEST_TIME_FLOAT' => 1488449510.651
+    'REQUEST_TIME' => 1488449510
+    'argv' => []
+    'argc' => 0
+]
+2017-03-02 13:11:51 [127.0.0.1][-][-][error][ReflectionException] ReflectionException: Class app\controllers\user\ProfileController does not exist in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\di\Container.php:424
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\di\Container.php(424): ReflectionClass->__construct('app\\controllers...')
+#1 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\di\Container.php(364): yii\di\Container->getDependencies('app\\controllers...')
+#2 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('app\\controllers...', Array, Array)
+#3 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\BaseYii.php(340): yii\di\Container->get('app\\controllers...', Array)
+#4 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Module.php(578): yii\BaseYii::createObject('app\\controllers...', Array)
+#5 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Module.php(583): yii\base\Module->createController('showit')
+#6 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Module.php(517): yii\base\Module->createController('profile/showit')
+#7 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/profile/sh...', Array)
+#8 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#10 {main}
+2017-03-02 13:11:50 [127.0.0.1][-][-][info][application] $_GET = [
+    'username' => 'login'
+]
+
+$_COOKIE = [
+    'gsScrollPos' => ''
+    '_csrf' => '506f2a5c8c7f4fe7720379b0557613ce44df13448a2a440396b6315e3073dda5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hwQ0GzVsBPQMJi_waOdJLg3Q3OkyLIFp\";}'
+    'PHPSESSID' => 'ibn37fcbi103p7dqhbe93521t5'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'news.portal'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => 'gsScrollPos=; _csrf=506f2a5c8c7f4fe7720379b0557613ce44df13448a2a440396b6315e3073dda5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hwQ0GzVsBPQMJi_waOdJLg3Q3OkyLIFp%22%3B%7D; PHPSESSID=ibn37fcbi103p7dqhbe93521t5'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-7-x64\\ext;c:\\openserver\\modules\\php\\PHP-7-x64\\pear;c:\\openserver\\modules\\php\\PHP-7-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-7-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'news.portal'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/news.portal/web/index-test.php'
+    'REMOTE_PORT' => '31563'
+    'REDIRECT_URL' => '/user/login/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/login/'
+    'SCRIPT_NAME' => '/index-test.php'
+    'PHP_SELF' => '/index-test.php'
+    'REQUEST_TIME_FLOAT' => 1488449510.651
+    'REQUEST_TIME' => 1488449510
+    'argv' => []
+    'argc' => 0
+]
+2017-03-02 13:12:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#1 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#2 {main}
+2017-03-02 13:12:04 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '506f2a5c8c7f4fe7720379b0557613ce44df13448a2a440396b6315e3073dda5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hwQ0GzVsBPQMJi_waOdJLg3Q3OkyLIFp\";}'
+    'PHPSESSID' => 'ibn37fcbi103p7dqhbe93521t5'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'news.portal'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=506f2a5c8c7f4fe7720379b0557613ce44df13448a2a440396b6315e3073dda5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hwQ0GzVsBPQMJi_waOdJLg3Q3OkyLIFp%22%3B%7D; PHPSESSID=ibn37fcbi103p7dqhbe93521t5'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-7-x64\\ext;c:\\openserver\\modules\\php\\PHP-7-x64\\pear;c:\\openserver\\modules\\php\\PHP-7-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-7-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'news.portal'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/news.portal/web/index-test.php'
+    'REMOTE_PORT' => '31580'
+    'REDIRECT_URL' => '/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index-test.php'
+    'PHP_SELF' => '/index-test.php'
+    'REQUEST_TIME_FLOAT' => 1488449524.767
+    'REQUEST_TIME' => 1488449524
+    'argv' => []
+    'argc' => 0
+]
+2017-03-02 13:12:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#1 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#2 {main}
+2017-03-02 13:12:04 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '506f2a5c8c7f4fe7720379b0557613ce44df13448a2a440396b6315e3073dda5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hwQ0GzVsBPQMJi_waOdJLg3Q3OkyLIFp\";}'
+    'PHPSESSID' => 'ibn37fcbi103p7dqhbe93521t5'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'news.portal'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=506f2a5c8c7f4fe7720379b0557613ce44df13448a2a440396b6315e3073dda5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hwQ0GzVsBPQMJi_waOdJLg3Q3OkyLIFp%22%3B%7D; PHPSESSID=ibn37fcbi103p7dqhbe93521t5'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-7-x64\\ext;c:\\openserver\\modules\\php\\PHP-7-x64\\pear;c:\\openserver\\modules\\php\\PHP-7-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-7-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'news.portal'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/news.portal/web/index-test.php'
+    'REMOTE_PORT' => '31580'
+    'REDIRECT_URL' => '/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index-test.php'
+    'PHP_SELF' => '/index-test.php'
+    'REQUEST_TIME_FLOAT' => 1488449524.767
+    'REQUEST_TIME' => 1488449524
+    'argv' => []
+    'argc' => 0
+]
+2017-03-02 13:12:41 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#1 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#2 {main}
+2017-03-02 13:12:41 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '506f2a5c8c7f4fe7720379b0557613ce44df13448a2a440396b6315e3073dda5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hwQ0GzVsBPQMJi_waOdJLg3Q3OkyLIFp\";}'
+    'PHPSESSID' => 'ibn37fcbi103p7dqhbe93521t5'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'news.portal'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=506f2a5c8c7f4fe7720379b0557613ce44df13448a2a440396b6315e3073dda5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hwQ0GzVsBPQMJi_waOdJLg3Q3OkyLIFp%22%3B%7D; PHPSESSID=ibn37fcbi103p7dqhbe93521t5'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-7-x64\\ext;c:\\openserver\\modules\\php\\PHP-7-x64\\pear;c:\\openserver\\modules\\php\\PHP-7-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-7-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'news.portal'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/news.portal/web/index-test.php'
+    'REMOTE_PORT' => '31620'
+    'REDIRECT_URL' => '/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index-test.php'
+    'PHP_SELF' => '/index-test.php'
+    'REQUEST_TIME_FLOAT' => 1488449561.26
+    'REQUEST_TIME' => 1488449561
+    'argv' => []
+    'argc' => 0
+]
+2017-03-02 13:12:41 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#1 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#2 {main}
+2017-03-02 13:12:41 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '506f2a5c8c7f4fe7720379b0557613ce44df13448a2a440396b6315e3073dda5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hwQ0GzVsBPQMJi_waOdJLg3Q3OkyLIFp\";}'
+    'PHPSESSID' => 'ibn37fcbi103p7dqhbe93521t5'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'news.portal'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=506f2a5c8c7f4fe7720379b0557613ce44df13448a2a440396b6315e3073dda5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hwQ0GzVsBPQMJi_waOdJLg3Q3OkyLIFp%22%3B%7D; PHPSESSID=ibn37fcbi103p7dqhbe93521t5'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-7-x64\\ext;c:\\openserver\\modules\\php\\PHP-7-x64\\pear;c:\\openserver\\modules\\php\\PHP-7-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-7-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'news.portal'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/news.portal/web/index-test.php'
+    'REMOTE_PORT' => '31620'
+    'REDIRECT_URL' => '/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index-test.php'
+    'PHP_SELF' => '/index-test.php'
+    'REQUEST_TIME_FLOAT' => 1488449561.26
+    'REQUEST_TIME' => 1488449561
+    'argv' => []
+    'argc' => 0
+]
+2017-03-02 13:13:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#1 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#2 {main}
+2017-03-02 13:13:04 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '506f2a5c8c7f4fe7720379b0557613ce44df13448a2a440396b6315e3073dda5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hwQ0GzVsBPQMJi_waOdJLg3Q3OkyLIFp\";}'
+    'PHPSESSID' => 'ibn37fcbi103p7dqhbe93521t5'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'news.portal'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=506f2a5c8c7f4fe7720379b0557613ce44df13448a2a440396b6315e3073dda5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hwQ0GzVsBPQMJi_waOdJLg3Q3OkyLIFp%22%3B%7D; PHPSESSID=ibn37fcbi103p7dqhbe93521t5'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-7-x64\\ext;c:\\openserver\\modules\\php\\PHP-7-x64\\pear;c:\\openserver\\modules\\php\\PHP-7-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-7-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'news.portal'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/news.portal/web/index-test.php'
+    'REMOTE_PORT' => '31642'
+    'REDIRECT_URL' => '/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index-test.php'
+    'PHP_SELF' => '/index-test.php'
+    'REQUEST_TIME_FLOAT' => 1488449584.568
+    'REQUEST_TIME' => 1488449584
+    'argv' => []
+    'argc' => 0
+]
+2017-03-02 13:13:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('', Array)
+#1 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Страница не найдена. in C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\OpenServer\domains\news.portal\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\news.portal\web\index-test.php(11): yii\base\Application->run()
+#2 {main}
+2017-03-02 13:13:04 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '506f2a5c8c7f4fe7720379b0557613ce44df13448a2a440396b6315e3073dda5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"hwQ0GzVsBPQMJi_waOdJLg3Q3OkyLIFp\";}'
+    'PHPSESSID' => 'ibn37fcbi103p7dqhbe93521t5'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'news.portal'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
+    'HTTP_COOKIE' => '_csrf=506f2a5c8c7f4fe7720379b0557613ce44df13448a2a440396b6315e3073dda5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22hwQ0GzVsBPQMJi_waOdJLg3Q3OkyLIFp%22%3B%7D; PHPSESSID=ibn37fcbi103p7dqhbe93521t5'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-7-x64\\ext;c:\\openserver\\modules\\php\\PHP-7-x64\\pear;c:\\openserver\\modules\\php\\PHP-7-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-7-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64\\bin;c:\\openserver\\modules\\http\\Apache-PHP-7-x64;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\system32\\Wbem;C:\\WINDOWS\\SysWOW64'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'news.portal'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/news.portal/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/news.portal/web/index-test.php'
+    'REMOTE_PORT' => '31642'
+    'REDIRECT_URL' => '/index.php'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index-test.php'
+    'PHP_SELF' => '/index-test.php'
+    'REQUEST_TIME_FLOAT' => 1488449584.568
+    'REQUEST_TIME' => 1488449584
+    'argv' => []
+    'argc' => 0
+]

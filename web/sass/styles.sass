@@ -1,0 +1,560 @@
+@import "modules/animation"
+@import "modules/vars"
+@import "modules/keyframes"
+@import "modules/components"
+@import "modules/select2_materialize"
+@import "modules/responsive"
+@import "modules/animate"
+
+
+body
+  background: #F3F3F3
+  .pagination
+    li
+      &.active
+        background: #E91E63 !important
+        box-shadow: 0px 0px 10px rgb(233, 30, 99)
+      &.prev.disabled,&.next.disabled
+        display: none
+  .visible
+    overflow: visible !important
+  .card-panel
+    width: 100%
+
+    float: left
+  .flex
+    display: flex !important
+    &.space-between
+      justify-content: space-between
+    &.flex-column
+      flex-direction: column
+    &.justify-center
+      justify-content: center
+    &.align-center
+      align-items: center
+    form
+      width: 100%
+  .collapsible-body
+    padding: 1em
+    ol
+      li
+        list-style-type: decimal
+  #notifications_settings
+    display: flex
+    width: 50%
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    margin: 2em auto
+    float: none
+    padding-top: 2em
+    p
+      margin: 0 !important
+
+  .btn-floating
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    img
+      width: 20px
+  #fullDescription
+    p
+      margin: 20px 0 !important
+      display: table
+
+  #modal3
+    background: white !important
+    height: 70vh !important
+    top: 10vh !important
+    justify-content: center
+    flex-direction: column
+    align-items: center
+    height: 81vh !important
+    padding-top: 3em
+    top: 3vh !important
+
+    form
+      overflow: hidden
+      #animationContainer
+        -webkit-transition-duration: 500ms
+        transition-duration: 500ms
+        height: 100px
+        &.minified
+          height: 0px
+      .animated
+        z-index: 11
+        -webkit-animation-duration: 500ms
+        animation-duration: 500ms
+
+    .modal-content
+      width: 90% !important
+  #modal1
+    width: 90vw
+  .articleIntro
+    font-size: 115%
+    line-height: 1.45
+  .roles
+    display: flex
+    justify-content: space-around
+  .noPadding
+    padding: 0 !important
+  [type=radio]:checked+label, [type=radio]:not(:checked)+label
+    padding-left: 23px !important
+  .border-top
+    border-top: 1px solid rgba(160,160,160,.2)
+  .sweet-alert
+    button
+      -webkit-border-radius: 3px
+      -moz-border-radius: 3px
+      border-radius: 3px
+  .user-actions
+    padding-top: .5em
+    display: flex
+    justify-content: center
+    flex-direction: row
+    width: 100%
+    align-items: center
+    .deleteUser
+      margin: 0 0 0 1em !important
+    .deleteUser, .editUser
+      padding: 0 !important
+      width: 40px !important
+      height: 40px
+      border-radius: 50%
+      display: flex
+      justify-content: center
+      align-items: center
+      -webkit-transition: .5s
+      -moz-transition: .5s
+      -ms-transition: .5s
+      -o-transition: .5s
+      transition: .5s
+      &:first-child
+        margin-right: 1em !important
+      img
+        width: 20px
+        image-rendering: optimizeSpeed
+        image-rendering: -moz-crisp-edges
+        image-rendering: -o-crisp-edges
+        image-rendering: -webkit-optimize-contrast
+        image-rendering: optimize-contrast
+        -ms-interpolation-mode: nearest-neighbor
+        -webkit-backface-visibility: hidden
+        -ms-transform: translateZ(0)
+        -webkit-transform: translateZ(0)
+        transform: translateZ(0)
+      &:hover
+        -webkit-transform: scale(1.1) translate3d(0,0,0)
+        -moz-transform: scale(1.1) translate3d(0,0,0)
+        -ms-transform: scale(1.1) translate3d(0,0,0)
+        -o-transform: scale(1.1) translate3d(0,0,0)
+        transform: scale(1.1) translate3d(0,0,0)
+        img
+          -webkit-backface-visibility: hidden
+          -ms-transform: translateZ(0)
+          -webkit-transform: translateZ(0)
+          transform: translateZ(0)
+  .userCard
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    padding: 1em 0em !important
+    .row:first-child
+      margin: 0 !important
+    ul
+      text-align: center
+    .avatar
+      width: 100px
+      border-radius: 50%
+      margin: 0 auto
+      height: 100px
+      display: block
+      background-size: cover !important
+      -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.28)
+      -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.28)
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.28)
+      -webkit-transition: .2s ease-in-out
+      -moz-transition: .2s ease-in-out
+      -ms-transition: .2s ease-in-out
+      -o-transition: .2s ease-in-out
+      transition: .2s ease-in-out
+      &:hover
+        -webkit-transform: scale(1.1)
+        -moz-transform: scale(1.1)
+        -ms-transform: scale(1.1)
+        -o-transform: scale(1.1)
+        transform: scale(1.1)
+        cursor: pointer
+  .modal-overlay
+    background: #004199 !important
+  .modal
+    max-height: 100% !important
+    height: 90vh !important
+    top: 0 !important
+    transform: translate(0%,5vh) !important
+  .linksCont
+    position: absolute
+    z-index: 1
+    display: flex
+    justify-content: space-around
+    width: 100%
+    bottom: 10px
+  #comments
+    padding-top: 1em !important
+    padding-bottom: 1em !important
+  button[data-dismiss="alert"]
+    display: none
+  #w0
+    text-align: center
+  .pagination
+    text-align: center
+    .active
+      -webkit-border-radius: 50% !important
+      -moz-border-radius: 50% !important
+      border-radius: 50% !important
+    .next,.prev
+      a
+        padding: 0 !important
+    .disabled
+      i
+        color: #999 !important
+  .noPadding
+    padding: 0 !important
+  .switch.publish
+    text-align: center
+    margin: 1em 0em !important
+  .fixed-action-btn
+    ul
+      width: 1000px !important
+      a.btn-floating.my
+        background: white !important
+        border-radius: 3px !important
+        color: #333 !important
+        width: 100% !important
+        height: auto !important
+        padding: 0 1em !important
+        -webkit-box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.3) !important
+        -moz-box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.3) !important
+        box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.3) !important
+
+
+  .adminNav
+    display: flex !important
+    flex-direction: row !important
+    justify-content: space-around !important
+    align-items: center !important
+    padding: 1em 0em !important
+    .active
+      &:not(.dropdown-content)
+          a
+            border-bottom: 2px solid #006cff
+            padding-bottom: 1em
+  .breadcrumbs
+    position: relative
+    background-color: #035fdc !important
+    margin-bottom: 0 !important
+    .row
+      margin-bottom: 0 !important
+
+  .center_content
+    display: flex
+    justify-content: center
+    align-items: center
+  .poster
+    position: absolute
+    top: 0
+    width: 100%
+    height: 100%
+
+    background-size: cover !important
+
+    -webkit-transition: 0.5s
+    -moz-transition: 0.5s
+    -ms-transition: 0.5s
+    -o-transition: 0.5s
+    transition: 0.5s
+
+  .dropdown-button
+    .ava_mini
+      margin-left: 5px !important
+
+  .ava_mini
+    background-size: cover !important
+    background-position: center center !important
+    float: left !important
+    margin: 0 8px 0 -12px !important
+    height: 32px !important
+    width: 32px !important
+    border-radius: 50% !important
+  .avatar_small
+    background-size: cover !important
+    background-position: center center !important
+    width: 120px !important
+    height: 120px !important
+  .fa
+    margin-right: 2px
+
+  nav
+    background: $bgGradient
+    -webkit-box-shadow: 0 4px 8px rgba(0,0,0,0.28)
+    -moz-box-shadow: 0 4px 8px rgba(0,0,0,0.28)
+    box-shadow: 0 4px 8px rgba(0,0,0,0.28)
+    .brand-logo
+      font-size: 20px
+      position: relative
+    .header_avatar
+      width: 40px
+      height: 40px
+      -webkit-border-radius: 50%
+      -moz-border-radius: 50%
+      border-radius: 50%
+
+  .btn
+    overflow: hidden
+  .send
+    -webkit-transition: .5s
+    -moz-transition: .5s
+    -ms-transition: .5s
+    -o-transition: .5s
+    transition: .5s
+    display: block
+    overflow: hidden
+    height: 36px
+    &.hide
+      height: 0 !important
+
+  #nav-mobile
+    button
+      background: none !important
+  .blackDiv
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: rgba(0, 0, 0, 0.6)
+    z-index: 1
+    -webkit-transition: background-color .5s
+    -moz-transition: background-color .5s
+    -ms-transition: background-color .5s
+    -o-transition: background-color .5s
+    transition: background-color .5s
+
+    + img
+      -webkit-transition: 0.5s
+      -moz-transition: 0.5s
+      -ms-transition: 0.5s
+      -o-transition: 0.5s
+      transition: 0.5s
+    &:hover
+      background-color: rgba(0,0,0,0.2)
+
+      + .poster
+        -webkit-transform: scale(1.2)
+        -moz-transform: scale(1.2)
+        -ms-transform: scale(1.2)
+        -o-transform: scale(1.2)
+
+
+    ~ span
+      z-index: 2
+  footer
+    background: $bgGradient
+
+    margin-top: 2em !important
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.74) !important
+  .container
+    &:nth-child(2)
+      padding-top: 30px
+
+  .img-rounded
+    border-radius: 50%
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.53)
+    padding: 0 !important
+    outline: none !important
+
+  nav
+    margin-bottom: 1em
+
+  .profile_bar
+    position: relative
+    padding: 27px 0px 27px
+    background-image: url("/dist/img/bg.jpg")
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.88)
+    background-attachment: fixed
+
+    .profileCover
+      position: absolute
+      top: 0
+      width: 100%
+      height: 100%
+      background-color: rgba(0,0,0,.6)
+      z-index: 0
+    .container
+      position: relative
+      z-index: 2
+    h5
+      -webkit-text-shadow: 5px 1px 10px rgba(255, 255, 255, 0.27)
+      -moz-text-shadow: 5px 1px 10px rgba(255, 255, 255, 0.27)
+      text-shadow: 5px 1px 10px rgba(255, 255, 255, 0.27)
+
+    li,p,h5
+      color: white !important
+
+
+  button
+    border: none !important
+
+
+  .cardContainer
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+
+  .card
+    position: relative
+    z-index: 99
+    ul
+      li
+        word-wrap: break-word
+    &:not(.adminNav)
+      overflow: hidden
+    border-radius: 3px
+    &.centerIt
+      margin: 0 !important
+    &.amplify
+      margin-top: 5em
+      margin-bottom: 5em
+    &.amplifyPadding
+      padding: 2em 1em !important
+    h5
+      text-align: center
+    .posterFull
+        position: absolute
+        top: 0
+        left: 0
+        width: 100% !important
+        height: 100% !important
+        background-size: cover !important
+        background-position: center center !important
+        filter
+
+    .card-image
+      overflow: hidden
+      border-bottom-left-radius: 5px
+      border-bottom-right-radius: 5px
+      position: relative
+      z-index: 99
+      min-height: 180px
+      max-height: 180px
+      &.full
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        height: 40vh
+
+        .created
+          color: #fff !important
+        .card-title
+          position: relative !important
+          z-index: 3
+
+      span
+        font-size: 14px !important
+
+      .post-info
+        z-index: 3
+        display: flex
+        justify-content: center
+        -webkit-justify-content: center
+        -webkit-align-items: center
+        align-items: center
+        margin: 0 !important
+
+        .created
+          color: #fff
+
+    .card-content
+      p
+        height: 100%
+        max-height: 20vh
+      &.full
+        img
+          max-width: 100%
+          display: block
+          margin: 20px 0
+          width: auto
+          margin: 0 auto
+          height: auto !important
+      .post-info
+        display: flex
+        justify-content: space-between
+        -webkit-justify-content: space-between
+        -webkit-align-items: center
+        align-items: center
+        margin: 0 0 5px 0 !important
+    .card-action
+      a:not(.btn):not(.btn-large):not(.btn-floating)
+        color: white !important
+        margin-right: 20px
+        transition: color .3s ease
+        text-transform: uppercase
+        border-radius: 30px
+        background: #006cff
+        transition: 300ms
+        padding: .5em 1em
+        box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.48)
+        &:hover
+          box-shadow: 2px 10px 15px rgba(0, 0, 0, 0.5)
+
+      a,.waves-effect
+        text-align: center
+        float: none
+        display: block
+      .waves-effect
+        margin: 1em auto 0em auto
+
+  .btn:not('red')
+    -webkit-transform: 0.3s cubic-bezier(0.22, 0.61, 0.36, 1)
+    -moz-transform: 0.3s cubic-bezier(0.22, 0.61, 0.36, 1)
+    -ms-transform: 0.3s cubic-bezier(0.22, 0.61, 0.36, 1)
+    -o-transform: 0.3s cubic-bezier(0.22, 0.61, 0.36, 1)
+    background-color: #006cff
+    border-radius: 3px
+    background-clip: padding-box
+    box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.2)
+    color: #fff
+    text-decoration: none
+    cursor: pointer
+    overflow: hidden
+
+    &:focus
+      outline: none
+
+    &:hover
+      background-color: #0061e6
+
+
+  .btn-floating.my
+    border-radius: 0 !important
+    color: #333
+    background: none !important
+    box-shadow: none !important
+    width: 400px !important
+
+
+  .checkbox
+    .input-field
+      margin-top: 0 !important
+      label
+        top: 0 !important
+
+  .tabs
+    .indicator
+      background: #2196F3!important
+  .red
+    background-color: #E91E63 !important
