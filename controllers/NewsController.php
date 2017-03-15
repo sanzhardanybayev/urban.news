@@ -187,6 +187,8 @@ class NewsController extends Controller implements NewsEventsInterface
         Yii::$app->session->setFlash('message', 'Вышла ошибка при загрузке фото');
         return $this->redirect(['news/create']);
       }
+
+
     } else {
       $model = new News();
       return $this->render('create', [
