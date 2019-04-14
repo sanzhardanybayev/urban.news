@@ -1,19 +1,15 @@
 Yii2: Проект "Urban News"
 ============================
 
-![alt text](https://trello-attachments.s3.amazonaws.com/58b4904ffbcf6a02a160f780/67x67/640a28b4c483ac26887a841dca97bcef/icon.png "Результаты тестирования")
 
 **Автор** - Даныбаев Санжар
 
-[Резюме](https://hh.kz/resume/d510fe4dff033df9110039ed1f724e44587165)
+
 
 Данный тестовый проект выполнен с учетом всех требований **Middle Developer**, указанных в тестовом задании.
 
 **Затраченное время**  - 1.5 недели
 
-Проект загружен на собственный хостинг. [Перейти на сайт](http://news.fixie.kz)
-
-Ход развития проекта можно просмотреть на [онлайн SCRUM доске в Trello](https://trello.com/b/v1ypDKfY/news-plaform-rgk-s-test-project-clean-board) 
 
 Разработка проекта разделилась на 4 этапа:
 
